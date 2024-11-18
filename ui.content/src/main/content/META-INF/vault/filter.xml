@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/childrepo2" mode="merge"/>
+    <filter root="/content/childrepo2" mode="merge"/>
+    <filter root="/content/dam/childrepo2" mode="merge">
+        <exclude pattern="/content/dam/childrepo2(/.*)?"/>
+        <include pattern="/content/dam/childrepo2/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/childrepo2/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/childrepo2" mode="merge"/>
+</workspaceFilter>
